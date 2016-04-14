@@ -1,0 +1,28 @@
+/*
+@white       : #ffffff;
+@offwhite    : #f8f8f8;
+@gray        : #cbcbcb;
+@darkgray    : #7d7873;
+@yellow      : #f9a92f;
+@oceanblue   : #359c9c;
+*/
+
+html, body{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: #fff;
+  color: #7d7873;
+  font-family: "Museo Sans", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 1.5em;
+}
+
+section{
+  float: left;
+  width: 100%;
+}

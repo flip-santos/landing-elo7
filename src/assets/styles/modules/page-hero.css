@@ -1,0 +1,18 @@
+.PageHero{
+  position: relative;
+  height: 450px;
+  background: url(../../images/foto-header.png) no-repeat center;
+  background-size: cover;
+}
+
+.PageHero .title{
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  left: 0;
+  bottom: 50px;
+  font-size: 40px;
+  font-weight: 500;
+  color: #fff;
+  text-shadow: 4px 4px 4px rgba(0,0,0,.5);
+}
