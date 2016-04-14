@@ -26,3 +26,36 @@ section{
   float: left;
   width: 100%;
 }
+
+/* 
+  Alignment
+*/
+.text-center{ text-align: center; }
+.pull-left{ float: left: ; }
+.pull-right{ float: right: ; }
+
+
+/*
+  Spaces
+*/
+.sm-margin-top{ margin-top: 25px; }
+.sm-margin-bottom{ margin-bottom: 25px; }
+.sm-margin-left{ margin-left: 25px; }
+.sm-margin-right{ margin-right: 25px; }
+
+.sm-padding-top{ padding-top: 25px; }
+.sm-padding-bottom{ padding-bottom: 25px; }
+.sm-padding-left{ padding-left: 25px; }
+.sm-padding-right{ padding-right: 25px; }
+
+.md-margin-top{ margin-top: 50px; }
+.md-margin-bottom{ margin-bottom: 50px; }
+.md-margin-left{ margin-left: 50px; }
+.md-margin-right{ margin-right: 50px; }
+
+.md-padding-top{ padding-top: 50px; }
+.md-padding-bottom{ padding-bottom: 50px; }
+.md-padding-left{ padding-left: 50px; }
+.md-padding-right{ padding-right: 50px; }
+
+/* Grid */

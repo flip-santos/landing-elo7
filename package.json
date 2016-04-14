@@ -1,0 +1,22 @@
+{
+  "name": "landing-elo7",
+  "version": "1.0.0",
+  "description": "Landing: Trabalhe Conosco",
+  "main": "src/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flip-santos/landing-elo7.git"
+  },
+  "author": "Filipe Santos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/flip-santos/landing-elo7/issues"
+  },
+  "homepage": "https://github.com/flip-santos/landing-elo7#readme",
+  "dependencies": {
+    "normalize.css": "^4.1.1"
+  }
+}
