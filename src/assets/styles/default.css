@@ -7,6 +7,10 @@
 @oceanblue   : #359c9c;
 */
 
+*{
+  box-sizing: border-box;
+}
+
 html, body{
   width: 100%;
   margin: 0;
@@ -35,14 +39,15 @@ h1,h2,h3,h4,h5,h6{
 /* 
   Alignment
 */
-.inner{
+._inner{
   display: block;
   width: 980px;
   margin: 0 auto;
+  padding: 0 10px;
 }
-.text-center{ text-align: center; }
-.pull-left{ float: left: ; }
-.pull-right{ float: right: ; }
+._text-center{ text-align: center; }
+._pull-left{ float: left: ; }
+._pull-right{ float: right: ; }
 
 
 /*
@@ -68,4 +73,11 @@ h1,h2,h3,h4,h5,h6{
 .md-padding-left{ padding-left: 50px; }
 .md-padding-right{ padding-right: 50px; }
 
-/* Grid */
+
+/*
+  Titles
+*/
+._center-title{
+  text-align: center;
+  margin-top: 0;
+}
