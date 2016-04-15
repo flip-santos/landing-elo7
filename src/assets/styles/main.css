@@ -1,8 +1,13 @@
+/* Globals */
 @import 'normalize.css';
+@import 'animate.css';
 @import 'default.css';
 @import 'icon-fonts.css';
 
+/* Components */
 @import 'components/button.css';
 
+/* Modules */
 @import 'modules/page-hero.css';
 @import 'modules/team-showcase.css';
+@import 'modules/differentials.css';

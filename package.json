@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/flip-santos/landing-elo7#readme",
   "dependencies": {
+    "animate.css": "^3.5.1",
     "normalize.css": "^4.1.1"
   }
 }
