@@ -1,12 +1,3 @@
-$.fn.extend({
-    animateCss: function (animationName) {
-        var animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
-        $(this).addClass('animated ' + animationName).one(animationEnd, function() {
-            $(this).removeClass('animated ' + animationName);
-        });
-    }
-});
-
 function animateVisibleObject($window, $elements) {
   
   if($window.length == 0 || $elements.length == 0) return;
