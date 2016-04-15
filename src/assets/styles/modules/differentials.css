@@ -2,7 +2,13 @@
   float: left;
   width: 100%;
   list-style: none;
+  padding: 0;
 }
+
+.Differentials ._row{
+  padding: 0;
+}
+
 .Differentials .large-icons-list .item{
   float: left;
   width: 33.33%;
