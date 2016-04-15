@@ -16,9 +16,9 @@ html, body{
 body{
   background-color: #fff;
   color: #7d7873;
-  font-family: "Museo Sans", sans-serif;
+  font-family: "museo-sans", sans-serif;
   font-weight: 300;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.5em;
 }
 
@@ -30,6 +30,11 @@ section{
 /* 
   Alignment
 */
+.inner{
+  display: block;
+  width: 980px;
+  margin: 0 auto;
+}
 .text-center{ text-align: center; }
 .pull-left{ float: left: ; }
 .pull-right{ float: right: ; }
