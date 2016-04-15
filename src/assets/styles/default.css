@@ -36,6 +36,13 @@ h1,h2,h3,h4,h5,h6{
   line-height: 1.2em;
 }
 
+[data-apply-animation]{
+  opacity: 0;
+}
+[data-apply-animation].animated{
+  opacity: 1;
+}
+
 /* 
   Alignment
 */
