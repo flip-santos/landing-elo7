@@ -7,7 +7,8 @@
             <span data-apply-animation="zoomInDown" data-animation-delay="250" class="icon-smile"></span>
           </div>
         </div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet fuga dicta, a nesciunt est deleniti quaerat veritatis eius impedit esse fugiat amet pariatur quo, odio quisquam, voluptates necessitatibus debitis nobis?</p>
+        <h2>Qualidade de vida</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet fuga dicta, a nesciunt est deleniti quaerat veritatis eius impedit.</p>
       </li>
       <li class="item">
         <div class="icon-wrapper">
@@ -15,6 +16,7 @@
             <span data-apply-animation="zoomInDown" data-animation-delay="500" class="icon-rock"></span>
           </div>
         </div>
+        <h2>Ambiente descontraído</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet fuga dicta, a nesciunt est deleniti quaerat veritatis eius impedit esse fugiat amet pariatur quo, odio quisquam, voluptates necessitatibus debitis nobis?</p>
       </li>
       <li class="item">
@@ -23,10 +25,11 @@
             <span data-apply-animation="zoomInDown" data-animation-delay="750" class="icon-palette"></span>
           </div>
         </div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet fuga dicta, a nesciunt est deleniti quaerat veritatis eius impedit esse fugiat amet pariatur quo, odio quisquam, voluptates necessitatibus debitis nobis?</p>
+        <h2>Atividades extras</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet fuga dicta, a nesciunt est deleniti quaerat veritatis eius impedit esse fugiat.</p>
       </li>
     </ul>
-    <p class="_text-center sm-padding-top">
+    <p class="bottom-link">
       <a href="#" class="_button top-line">Saiba mais</a>
     </p>
   </div>
