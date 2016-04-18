@@ -4,7 +4,7 @@ module.exports = (gulp, config) => {
 
   const browserifyBundler = require('../util/browserify-bundler');
 
-  gulp.task('watch', () => {
+  gulp.task('watch', ['build'], () => {
 
     browserifyBundler(true, config);
 
