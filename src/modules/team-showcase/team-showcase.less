@@ -3,7 +3,7 @@
 
   .video-player{
     float: left;
-    margin-right: 50px;
+    margin-right: @lg-margin;
   }
   
   .main-block{
@@ -12,18 +12,19 @@
   }
 
   .title-group {
+    padding-bottom: @sm-margin;
     h2{
       text-transform: uppercase;
       font-size: 20px;
-      font-weight: 700;
+      font-weight: @font-bold;
       margin: 0;
     }
 
     h3{
       text-transform: none;
       font-style: italic;
-      font-weight: 500;
-      color: #f9a92f;
+      font-weight: @font-normal;
+      color: @yellow;
       margin: 0;
     }
   }
@@ -47,3 +48,39 @@
 
 }
 
+@media @tablet{
+  .TeamShowcase{
+    .video-player{
+      margin-right: @md-margin;
+    }
+  }
+}
+
+@media @phone{
+
+  .TeamShowcase{
+
+    .video-player{
+      width: 100%;
+      margin-right: 0;
+      margin-bottom: @sm-margin;
+      img{
+        width: 100%;
+        height: auto;
+      }
+    }
+    
+    .title-group {
+      float: left;
+      width: 100%;
+      text-align: center;
+    }
+
+    .team-cards{
+      .member{
+        width: 50%;
+        padding-bottom: 0;
+      }
+    }
+  }
+}
