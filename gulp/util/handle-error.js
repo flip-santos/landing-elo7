@@ -1,6 +1,6 @@
-const notify = require("gulp-notify");
+var notify = require("gulp-notify");
 
-module.exports = () {
+module.exports = function() {
 
   var args = Array.prototype.slice.call(arguments);
 
