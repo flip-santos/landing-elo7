@@ -27,7 +27,7 @@ module.exports = (gulp, config) => {
       .pipe(cleanCSS({
         keepSpecialComments: 0
       }))
-      .pipe(gulp.dest(`${config.dest}/assets/css`));
+      .pipe(gulp.dest(`${config.dest}/assets/styles`));
 
   });
 
