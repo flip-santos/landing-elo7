@@ -8,7 +8,7 @@ module.exports = (gulp, app) => {
 
     runSequence(
       'clean-build',
-      ['less', 'markup']
+      ['less', 'markup', 'scripts', 'copy-files']
     );
     
   });
