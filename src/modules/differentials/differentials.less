@@ -1,0 +1,43 @@
+.Differentials{
+
+  .large-icons-list{
+    float: left;
+    width: 100%;
+    list-style: none;
+    padding: 0;
+  }
+
+  ._row{ padding: 0 }
+  
+  .large-icons-list{
+    .item{
+      float: left;
+      width: 33.33%;
+      padding: 0 @sm-margin*2;
+    }
+    .icon-wrapper{
+      display: flex;
+      justify-content: center;
+    }
+    .round-icon{
+      @size: 150px;
+      width: @size;
+      height: @size;
+      background-color: @yellow;
+      -webkit-clip-path: circle(50% at 50% 50%);
+      clip-path: circle(50% at 50% 50%);
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      align-self: space-around;
+      justify-content: center;
+      
+      span{
+        font-size: 80px;
+        color: @white;
+        text-shadow: 10px 10px 1px rgba(0,0,0,.1);
+      }
+    }
+  }
+
+}

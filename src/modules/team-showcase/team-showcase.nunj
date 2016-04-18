@@ -1,0 +1,36 @@
+<section class="TeamShowcase md-padding-top md-padding-bottom">
+  <div class="_row">
+    
+    <div class="main-block md-margin-bottom">
+      <div class="video-player">
+        <img src="/assets/images/placeholder-video.png" alt="">
+      </div>
+      <hgroup class="title-group">
+        <h2>Palavra do CEO</h2>
+        <h3>Carlos Curioni</h3>
+      </hgroup>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga repudiandae asperiores numquam exercitationem mollitia repellendus accusamus eligendi nam, eveniet nisi provident quasi, natus quia nobis nulla maxime doloremque ex sapiente!</p>
+    </div>
+
+    <h2 class="_text-center md-margin-bottom">
+      Conheça nosso time<br>
+      fora de série
+    </h2>
+
+    <ul class="team-cards">
+      <li class="member">
+        <img class="" src="/assets/images/camila-color.png" alt="">
+      </li>
+      <li class="member">
+        <img class="" src="/assets/images/guto-color.png" alt="">
+      </li>
+      <li class="member">
+        <img class="" src="/assets/images/david-color.png" alt="">
+      </li>
+      <li class="member">
+        <img class="" src="/assets/images/beatriz-color.png" alt="">
+      </li>
+    </ul>
+
+  </div>
+</section>
