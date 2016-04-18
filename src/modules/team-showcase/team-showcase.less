@@ -4,6 +4,11 @@
   .video-player{
     float: left;
     margin-right: @lg-margin;
+
+    iframe{
+      width: 390px;
+      height: 220px;
+    }
   }
   
   .main-block{
@@ -64,8 +69,9 @@
       width: 100%;
       margin-right: 0;
       margin-bottom: @sm-margin;
-      img{
+      iframe{
         width: 100%;
+        min-height: 188px;
         height: auto;
       }
     }

@@ -3,7 +3,7 @@
     
     <div class="main-block md-margin-bottom">
       <div class="video-player">
-        <img src="/assets/images/placeholder-video.png" alt="">
+        <iframe src="https://www.youtube.com/embed/UQ2-6gk9Szs" frameborder="0" allowfullscreen></iframe>
       </div>
       <hgroup class="title-group">
         <h2>Palavra do CEO</h2>
