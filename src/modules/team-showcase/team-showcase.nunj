@@ -18,18 +18,20 @@
     </h2>
 
     <ul class="team-cards">
+      
+      {% for member in TeamShowcase.team %}
       <li class="member">
-        <img class="" src="/assets/images/camila-color.png" alt="">
+        <div class="inner">
+          <div class="thumbnail" style="background-image: url({{member.thumbnail}})"></div>
+          <div class="blur" style="background-image: url({{member.thumbnail}})"></div>
+          <div class="info">
+            <h3 class="name">{{member.name}}</h3>
+            <h4 class="job">{{member.job}}</h4>
+          </div>
+        </div>
       </li>
-      <li class="member">
-        <img class="" src="/assets/images/guto-color.png" alt="">
-      </li>
-      <li class="member">
-        <img class="" src="/assets/images/david-color.png" alt="">
-      </li>
-      <li class="member">
-        <img class="" src="/assets/images/beatriz-color.png" alt="">
-      </li>
+      {% endfor %}
+      
     </ul>
 
   </div>

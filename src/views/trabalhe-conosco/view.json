@@ -6,5 +6,29 @@
   },
   "PageHero": {
     "title": "Trabalhe no Elo7"
+  },
+  "TeamShowcase": {
+    "team": [
+      {
+        "thumbnail" : "/assets/images/camila.png",
+        "name" : "Camila Tessarolo",
+        "job": "UI/UX Designer"
+      },
+      {
+        "thumbnail" : "/assets/images/guto.png",
+        "name" : "Guto Araujo",
+        "job": "COO"
+      },
+      {
+        "thumbnail" : "/assets/images/david.png",
+        "name" : "David Robert",
+        "job": "CTO"
+      },
+      {
+        "thumbnail" : "/assets/images/beatriz.png",
+        "name" : "Beatriz Figueiredo",
+        "job": "UX/UI Designer"
+      }
+    ]
   }
 }

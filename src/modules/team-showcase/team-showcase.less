@@ -39,15 +39,78 @@
     padding: 0;
     
     .member{
+      position: relative;
       float: left;
       width: 25%;
+      height: 230px;
       padding: 5px;
       box-sizing: border-box;
       
-      img{
+      .inner{
+        position: relative;
         width: 100%;
-        height: auto;
+        height: 100%;  
+        overflow: hidden;
       }
+
+      .thumbnail,
+      .info,
+      .blur{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+      }
+      
+      .thumbnail,
+      .blur{
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: top center;
+        z-index: 1;
+      }
+
+
+      .info{
+        opacity: 0;
+        background-position: bottom center;
+        z-index: 3;
+        transition: opacity 250ms linear;
+        will-change: opacity;
+        text-align: center;
+        padding: @sm-margin;
+        .name{
+          color: @yellow;
+          font-size: 20px;
+          font-weight: @font-bold;
+          margin-top: 110px;
+          text-shadow: 1px 1px 2px rgba(0,0,0,.5); 
+        }
+        .job{
+          color: @white;
+          font-size: 12px;
+          font-weight: @font-normal;
+          text-shadow: 1px 1px 2px rgba(0,0,0,.5); 
+        }
+      }
+
+      .blur{
+        opacity: 0;
+        transition: opacity 250ms linear;
+        will-change: opacity;
+        background-size: cover;
+        z-index: 2;
+        filter: blur(10px);
+      }
+
+      &:hover{
+        .info, .blur{
+          opacity: 1;
+          transition: opacity 250ms linear;
+        }
+      }
+
     }
   }
 
@@ -85,7 +148,13 @@
     .team-cards{
       .member{
         width: 50%;
+        height: 180px;
         padding-bottom: 0;
+        .info{
+          .name{
+            margin-top: 70px;
+          }
+        }
       }
     }
   }
