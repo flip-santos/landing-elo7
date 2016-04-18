@@ -20,7 +20,7 @@
       
       <div class="main-block md-margin-bottom">
         <div class="video-player">
-          <img src="assets/images/placeholder-video.png" alt="">
+          <img src="/assets/images/placeholder-video.png" alt="">
         </div>
         <hgroup class="title-group">
           <h2>Palavra do CEO</h2>
@@ -36,16 +36,16 @@
 
       <ul class="team-cards">
         <li class="member">
-          <img class="" src="assets/images/camila-color.png" alt="">
+          <img class="" src="/assets/images/camila-color.png" alt="">
         </li>
         <li class="member">
-          <img class="" src="assets/images/guto-color.png" alt="">
+          <img class="" src="/assets/images/guto-color.png" alt="">
         </li>
         <li class="member">
-          <img class="" src="assets/images/david-color.png" alt="">
+          <img class="" src="/assets/images/david-color.png" alt="">
         </li>
         <li class="member">
-          <img class="" src="assets/images/beatriz-color.png" alt="">
+          <img class="" src="/assets/images/beatriz-color.png" alt="">
         </li>
       </ul>
 
@@ -91,7 +91,7 @@
     <div class="_row">
       
       <div class="inner-banner md-margin-bottom">
-        <img src="assets/images/foto-bottom.png" alt="">
+        <img src="/assets/images/foto-bottom.png" alt="">
       </div>
       
       <h2 class="_center-title md-margin-bottom">Vagas em aberto</h2>

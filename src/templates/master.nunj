@@ -7,13 +7,13 @@
         <title>{{headers.title}}</title>
         <script src="https://use.typekit.net/kce6ybo.js"></script>
         <script>try{Typekit.load({ async: true });}catch(e){}</script> 
-        <link rel="stylesheet" href="assets/styles/{{headers.id}}.css">
+        <link rel="stylesheet" href="/assets/styles/{{headers.id}}.css">
     </head>
     <body id="{{headers.id}}">
         
         {% block content%}{% endblock %}
          
-        <script src="assets/scripts/{{headers.id}}.js"></script>
+        <script src="/assets/scripts/{{headers.id}}.js"></script>
         <script id="__bs_script__">
           //<![CDATA[document.write("<script async src='http://HOST:3000/browser-sync/browser-sync-client.2.11.2.js'><\/script>".replace("HOST", location.hostname));//]]>
         </script>
