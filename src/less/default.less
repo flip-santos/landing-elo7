@@ -25,6 +25,15 @@ section{
 h1,h2,h3,h4,h5,h6 {
   text-transform: uppercase;
   line-height: 1.2em;
+  margin: 0;
+}
+
+p{
+  margin: 0 0 @sm-margin;
+}
+
+ul{
+  margin: 0;
 }
 
 [data-apply-animation]{
@@ -42,7 +51,13 @@ h1,h2,h3,h4,h5,h6 {
   width: @site-width;
   margin: 0 auto;
   padding: 0 @sm-margin;
+
+  @media @tablet{
+    width: 100%;
+    padding: 0 @sm-margin*2;
+  }
 }
+
 ._text-center{ text-align: center }
 ._pull-left{ float: left }
 ._pull-right{ float: right }
