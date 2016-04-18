@@ -9,20 +9,20 @@
     <h2 class="_center-title md-margin-bottom">Vagas em aberto</h2>
     
     <ul class="text-list">
-      <li>
+      <li class="text-list-item">
         <h3 class="category-title">Desenvolvimento</h3>
         <ul class="inner-list">
-          <li>
+          <li class="inner-list-item">
             Desenvolvidor Mobile Senior
-            <span class="_pull-right">Vida Olímpia - São Paulo, Brasil</span>
+            <span>Vida Olímpia - São Paulo, Brasil</span>
           </li>
-          <li>
+          <li class="inner-list-item">
             Desenvolvidor Java Senior
-            <span class="_pull-right">Vida Olímpia - São Paulo, Brasil</span>
+            <span>Vida Olímpia - São Paulo, Brasil</span>
           </li>
-          <li>
+          <li class="inner-list-item">
             Desenvolvidor Front-End
-            <span class="_pull-right">Vida Olímpia - São Paulo, Brasil</span>
+            <span>Vida Olímpia - São Paulo, Brasil</span>
           </li>
         </ul>
       </li>
