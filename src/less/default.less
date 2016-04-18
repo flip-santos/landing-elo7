@@ -1,0 +1,110 @@
+*{
+  box-sizing: border-box;
+}
+
+html, body{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: @white;
+  color: @darkgray;
+  font-family: @museo;
+  font-weight: @font-normal;
+  font-size: 16px;
+  line-height: 1.5em;
+}
+
+section{
+  float: left;
+  width: 100%;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  text-transform: uppercase;
+  line-height: 1.2em;
+}
+
+[data-apply-animation]{
+  opacity: 0;
+}
+[data-apply-animation].animated{
+  opacity: 1;
+}
+
+/* 
+  Alignment
+*/
+._row{
+  display: block;
+  width: @site-width;
+  margin: 0 auto;
+  padding: 0 @sm-margin;
+}
+._text-center{ text-align: center }
+._pull-left{ float: left }
+._pull-right{ float: right }
+
+
+/*
+  Spaces
+*/
+.sm-margin-top     { margin-top: @sm-margin }
+.sm-margin-bottom  { margin-bottom: @sm-margin }
+.sm-margin-left    { margin-left: @sm-margin }
+.sm-margin-right   { margin-right: @sm-margin }
+
+.sm-padding-top    { padding-top: @sm-margin }
+.sm-padding-bottom { padding-bottom: @sm-margin }
+.sm-padding-left   { padding-left: @sm-margin }
+.sm-padding-right  { padding-right: @sm-margin }
+
+.md-margin-top     { margin-top: @md-margin }
+.md-margin-bottom  { margin-bottom: @md-margin }
+.md-margin-left    { margin-left: @md-margin }
+.md-margin-right   { margin-right: @md-margin }
+
+.md-padding-top    { padding-top: @md-margin }
+.md-padding-bottom { padding-bottom: @md-margin }
+.md-padding-left   { padding-left: @md-margin }
+.md-padding-right  { padding-right: @md-margin }
+
+.lg-margin-top     { margin-top: @lg-margin }
+.lg-margin-bottom  { margin-bottom: @lg-margin }
+.lg-margin-left    { margin-left: @lg-margin }
+.lg-margin-right   { margin-right: @lg-margin }
+
+.lg-padding-top    { padding-top: @lg-margin }
+.lg-padding-bottom { padding-bottom: @lg-margin }
+.lg-padding-left   { padding-left: @lg-margin }
+.lg-padding-right  { padding-right: @lg-margin }
+
+/*
+  Titles
+*/
+._center-title{
+  text-align: center;
+  margin-top: 0;
+}
+
+/*
+  Buttons
+*/
+._button{
+  &.top-line{
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: @oceanblue;
+    font-size: 16px;
+    font-weight: @font-bold;
+    border-top: solid 2px @gray;
+    padding: 15px 45px;
+    &:after{
+      content: "»";
+      margin-left: 10px;
+    }
+  }
+}

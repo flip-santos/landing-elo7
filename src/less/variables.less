@@ -1,0 +1,35 @@
+// Colors
+@white       : #ffffff;
+@offwhite    : #f8f8f8;
+@gray        : #cbcbcb;
+@darkgray    : #7d7873;
+@yellow      : #f9a92f;
+@oceanblue   : #359c9c;
+
+// Measurements
+@site-width: 980px;
+@lg-margin: 50px;
+@md-margin: @lg-margin/2;
+@sm-margin: 10px;
+
+// Font
+@museo: "museo-sans", sans-serif;
+@font-normal: 300;
+@font-bold: 500;
+
+// Responsive
+@xs-min: 320px;
+@sm-min: 768px;
+@md-min: 992px;
+@lg-min: 1200px;
+@xs-max: (@sm-min - 1);
+@sm-max: (@md-min - 1);
+@md-max: (@lg-min - 1);
+
+@phone:          ~"only screen and (max-width: @{xs-max})";
+@phone-strict:   ~"only screen and (min-width: @{xs-min}) and (max-width: @{xs-max})";
+@tablet:         ~"only screen and (max-width: @{sm-max})";
+@tablet-strict:  ~"only screen and (min-width: @{sm-min}) and (max-width: @{sm-max})";
+@desktop:        ~"only screen and (min-width: @{md-min})";
+@desktop-strict: ~"only screen and (min-width: @{md-min}) and (max-width: @{md-max})";
+@large:          ~"only screen and (min-width: @{lg-min})";
