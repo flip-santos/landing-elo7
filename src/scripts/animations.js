@@ -1,4 +1,5 @@
-var $ = require('jquery');
+var $ = require('jquery'),
+    throttle = require('../scripts/throttle');
 
 function animateVisibleObject($window, $elements) {
   
@@ -29,9 +30,9 @@ function init(){
   var $elements = $('[data-apply-animation]'),
       $window = $(window);
 
-  $window.on('scroll resize', function(){
+  $window.on('scroll resize', throttle(function(){
     animateVisibleObject($window, $elements);
-  }).trigger('scroll');
+  },750)).trigger('scroll');
 
 }
 
