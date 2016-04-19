@@ -1,8 +1,8 @@
 <section class="TextBlock">
   <div class="_row">
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex laudantium dolorem cum accusamus non! Tempora cum nam beatae deleniti illo blanditiis facilis, temporibus facere autem architecto odit, eum quod eius.</p>
-    <div class="md-margin-top">
-      <a href="#" class="_button top-line">Vagas em aberto</a>
-    </div>
+  </div>
+  <div class="_bottom-link">
+    <a href="#" class="_button top-line">Vagas em aberto</a>
   </div>
 </section>

@@ -1,6 +1,6 @@
 <section class="Differentials md-padding-top md-padding-bottom">
   <div class="_row">
-    <ul class="large-icons-list md-margin-bottom">
+    <ul class="large-icons-list sm-margin-bottom">
       <li class="item">
         <div class="icon-wrapper">
           <div class="round-icon" data-apply-animation="fadeIn">
@@ -29,7 +29,7 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet fuga dicta, a nesciunt est deleniti quaerat veritatis eius impedit esse fugiat.</p>
       </li>
     </ul>
-    <p class="bottom-link">
+    <p class="_bottom-link">
       <a href="#" class="_button top-line">Saiba mais</a>
     </p>
   </div>
